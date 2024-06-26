@@ -161,11 +161,11 @@ button{
 }
 
 ul.lista li {
-    list-style-type: none; /* Remove a marcação */
+    list-style-type: none;
     padding: 10px;
     margin: 5px 0;
-    background-color: #c0a23e; /* Cor inicial do item */
-    transition: background-color 0.3s ease; /* Animação de mudança de cor */
+    background-color: #c0a23e;
+    transition: background-color 0.3s ease;
 }
 
 ul.lista li:hover,
@@ -175,9 +175,9 @@ ul.lista li:active {
 }
 
 ul.lista li a {
-    color: rgb(0, 0, 0); /* Cor do texto do link */
-    text-decoration: none; /* Remove sublinhado dos links */
-    display: block; /* Faz o link preencher todo o item da lista */
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    display: block; 
 }
 
 ul.lista li a:hover,
@@ -185,4 +185,5 @@ ul.lista li a:focus,
 ul.lista li a:active {
     color: rgb(223, 226, 11); 
 }
+
 
